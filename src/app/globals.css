@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #1a1410;
+  --foreground: #f5f0e8;
+  --accent: #c4a35a;
+  --accent-hover: #d4b86a;
+  --secondary: #8b7355;
+  --muted: #a89880;
+  --surface: #241c16;
+  --surface-light: #2e241c;
+  --font-heading: "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-body);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-4 py-20 sm:px-6 lg:px-8 lg:py-28;
+  }
+
+  .container-narrow {
+    @apply mx-auto max-w-5xl;
+  }
+
+  .container-wide {
+    @apply mx-auto max-w-6xl;
+  }
+
+  .hero-pattern {
+    background-image:
+      radial-gradient(circle at 50% 50%, rgba(196, 163, 90, 0.08) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(139, 115, 85, 0.06) 0%, transparent 40%);
+  }
+
+  .card-surface {
+    @apply rounded-xl border border-secondary/20 bg-surface p-6 transition-colors hover:border-accent/30;
+  }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#1a1410"/>
+  <circle cx="600" cy="315" r="200" fill="none" stroke="#c4a35a" stroke-width="1" opacity="0.15"/>
+  <circle cx="600" cy="315" r="280" fill="none" stroke="#8b7355" stroke-width="1" opacity="0.1"/>
+  <!-- Helmet icon centered -->
+  <g transform="translate(540, 200) scale(2)">
+    <path d="M32 4C20 4 12 12 10 22v8c0 2 1 4 3 5l-1 17c0 2 2 4 4 4h4l2 4h16l2-4h4c2 0 4-2 4-4l-1-17c2-1 3-3 3-5v-8C52 12 44 4 32 4z" fill="#241c16" stroke="#c4a35a" stroke-width="1.5"/>
+    <path d="M18 28h28" stroke="#c4a35a" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="32" cy="38" r="6" stroke="#c4a35a" stroke-width="1" fill="none" opacity="0.5"/>
+  </g>
+  <text x="600" y="420" text-anchor="middle" font-family="Georgia, serif" font-size="48" fill="#f5f0e8" font-weight="600">Mski Ród</text>
+  <text x="600" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#a89880">Centrum Wsparcia M|czyzn</text>
+  <text x="600" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#c4a35a">meskirod.pl</text>
+</svg>

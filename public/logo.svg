@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+  <!-- Tribal warrior helmet / Chusarska visor silhouette -->
+  <path
+    d="M32 4C20 4 12 12 10 22v8c0 2 1 4 3 5l-1 17c0 2 2 4 4 4h4l2 4h16l2-4h4c2 0 4-2 4-4l-1-17c2-1 3-3 3-5v-8C52 12 44 4 32 4z"
+    fill="#241c16"
+    stroke="#c4a35a"
+    stroke-width="1.5"
+  />
+  <!-- Visor slit -->
+  <path
+    d="M18 28h28"
+    stroke="#c4a35a"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+  <!-- Nose guard -->
+  <path
+    d="M32 28v12"
+    stroke="#8b7355"
+    stroke-width="1.5"
+    stroke-linecap="round"
+  />
+  <!-- Cheek plates -->
+  <path
+    d="M14 32c2 4 6 8 18 8s16-4 18-8"
+    stroke="#8b7355"
+    stroke-width="1"
+    fill="none"
+  />
+  <!-- Crest / plume base -->
+  <path
+    d="M26 8c2-2 10-2 12 0"
+    stroke="#c4a35a"
+    stroke-width="1.5"
+    stroke-linecap="round"
+  />
+  <path
+    d="M28 6c4-3 8-3 8 0"
+    fill="#c4a35a"
+    opacity="0.6"
+  />
+  <!-- Decorative circle  rod symbol -->
+  <circle cx="32" cy="38" r="6" stroke="#c4a35a" stroke-width="1" fill="none" opacity="0.5"/>
+</svg>

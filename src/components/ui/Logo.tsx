@@ -5,10 +5,10 @@ import { site } from "@/content/site";
 export function Logo({ className = "h-10 w-10" }: { className?: string }) {
   return (
     <Image
-      src="/logo.svg"
+      src="/logo-mark.png"
       alt={`${site.name} — logo`}
-      width={40}
-      height={40}
+      width={200}
+      height={200}
       className={className}
       priority
     />
